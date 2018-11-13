@@ -1,0 +1,40 @@
+// rightTriangle.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include "pch.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	//Declare Variables
+	int heightOfTriangle;
+
+	//Basic 
+	for (int i = 1; i < 6; i++) {
+		int counter = 0;
+
+		while (counter < i) {
+			cout << "i";
+			counter++;
+		}
+		cout << "\n";
+	}
+	
+	//Advanced
+	cout << "Now it's your turn how many tall should the next right triangle be? ";
+	cin >> heightOfTriangle;
+
+	for (int j = 1; j < (heightOfTriangle + 1); j++) {
+		int counter = 0;
+		while (counter < j)
+		{
+			cout << "i";
+			counter++;
+		}
+		cout << "\n";
+	}
+	return 0;
+}
+
